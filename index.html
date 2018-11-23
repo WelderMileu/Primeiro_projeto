@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html leng="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript - OOB</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript">
+		//Formula orientada o objeto em javascript basica
+		//Estuda mais essa formula
+		var pessoa = {
+			nome:"Marina",
+			sobrenome:"Silva",
+			idade:23,
+			civil:"Solteira"
+		}
+		function pess(){
+			var mostrar = document.getElementById("exibir");
+			mostrar.innerHTML=(pessoa.nome);
+
+			console.log(pessoa);
+		}
+	</script>
+</head>
+	<body>
+		<div class="container">
+			<button class="btn" onclick="pess()"><strong>Abrir</strong></button><br><br>
+			<pre>
+				<p id="exibir"></p>
+			</pre>
+		</div>
+	</body>
+</html>

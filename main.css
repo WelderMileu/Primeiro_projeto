@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 10%;
+}
+
+.btn{
+	border:none;
+	border:1px solid #00f;
+	padding: 10px 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	transition: .5s;
+}
+.btn:hover{
+	background-color: #000;
+	color:#fff;
+}
